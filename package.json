@@ -1,0 +1,34 @@
+{
+	"name": "kaluma-ws",
+	"version": "0.0.0",
+	"description": "WIP Kaluma JS implementation of a WebSocket client based on Espruino's ws module",
+	"main": "index.js",
+	"type": "module",
+	"repository":{
+		"type": "git",
+		"url": "git+https://git@github.com/phasn/Kaluma-WS.git"
+	},
+	"homepage": "https://github.com/phasn/Kaluma-WS",
+	"scripts":{
+		"flash": "kaluma flash ./index.js -sbo ./bundle.js",
+		"flashMin": "kaluma flash ./index.js -sbmo ./bundle.min.js",
+		"shell": "kaluma shell",
+		"erase": "kaluma erase"
+	},
+	"dependencies":{
+	},
+	"author": "phasn <phasn@proton.me> (https://github.com/phasn)",
+	"license": "MIT",
+	"keywords":[
+		"websocket",
+		"ws",
+		"client",
+		"Kaluma",
+		"raspberry pi pico",
+		"RP2040",
+		"RP2350",
+		"IoT",
+		"embedded",
+		"microcontroller"
+	]
+}
